@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM, { render } from 'react-dom';
 
-import MyComponent from './components/MyComponent';
+console.log( React );
+console.log( ReactDOM );
+console.log( React.createElement('h1', null, 'hhhh') );
+import MyComponent from './components/MyComponent/index.js';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
